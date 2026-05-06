@@ -64,6 +64,31 @@
       text-decoration: none;
     }
   </style>
+  .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+} <h2>Cortes</h2>
+
+<div class="galeria">
+  <img src="corte1.jpg">
+  <img src="corte2.jpg">
+  <img src="corte3.jpg">
+  <img src="corte4.jpg">
+</div>
 </head>
 
 <body>
