@@ -1,6 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>Meu site está online 🚀</h1>
-  </body>
+<head>
+  <title>Barbearia Elite</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      font-size: 28px;
+      border-bottom: 2px solid #25D366;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #25D366;
+    }
+
+    .card {
+      background: #1c1c1c;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .galeria img {
+      width: 90%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .botao {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Barbearia Elite 💈
+  </header>
+
+  <div class="container">
+
+    <h2>Sobre nós</h2>
+    <p>Especialistas em cortes modernos e atendimento de qualidade</p>
+
+    <h2>Serviços</h2>
+    <div class="card">Corte - R$30</div>
+    <div class="card">Barba - R$20</div>
+    <div class="card">Corte + Barba - R$45</div>
+
+    <h2>Trabalhos</h2>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/300" />
+      <img src="https://via.placeholder.com/300" />
+    </div>
+
+    <a href="https://wa.me/5511953577785?text=Quero%20agendar%20um%20horário" 
+       class="botao" target="_blank">
+       Agendar pelo WhatsApp
+    </a>
+
+  </div>
+
+  <a href="https://wa.me/5511953577785?text=Quero%20agendar%20um%20horário" 
+     class="whatsapp" target="_blank">
+    💬
+  </a>
+
+</body>
 </html>
